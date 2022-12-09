@@ -9,11 +9,7 @@ html, body {
     width: 100%;
     min-height: 100vh;
     font-family: 'Source Sans Pro', sans-serif;
-    background: -o-linear-gradient(220deg, #a24bcf, #4b79cf, #4bc5cf);
-    background: linear-gradient(230deg, #a24bcf, #4b79cf, #4bc5cf);
-    background-size: 200% 200%;
-    -webkit-animation: gradientChanger 20s ease infinite;
-    animation: gradientChanger 20s ease infinite;
+    background-color: #000014;
 }
 
 main {
@@ -199,30 +195,4 @@ button:hover {
 .copyrights {
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-}
-
-/* Animation's*/
-
-@-webkit-keyframes gradientChanger {
-    0% {
-        background-position: 87% 0
-    }
-    50% {
-        background-position: 14% 100%
-    }
-    100% {
-        background-position: 87% 0
-    }
-}
-
-@keyframes gradientChanger {
-    0% {
-        background-position: 87% 0
-    }
-    50% {
-        background-position: 14% 100%
-    }
-    100% {
-        background-position: 87% 0
-    }
 }
