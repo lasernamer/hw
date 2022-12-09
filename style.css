@@ -138,8 +138,8 @@ form {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-evenly;
-    -webkit-box-shadow: 0 0 45px 0 rgba(209, 209, 209, 1);
-    box-shadow: 0 0 45px 0 rgba(209, 209, 209, 1);
+    -webkit-box-shadow: 0 0 25px 0 rgba(209, 209, 209, 1);
+    box-shadow: 0 0 25px 0 rgba(209, 209, 209, 1);
 }
 
 label {
@@ -181,9 +181,7 @@ button {
     font-weight: bold;
     padding: 10px;
     color: #FFFFFF;
-    background: -o-linear-gradient(220deg, #a24bcf, #4b79cf);
-    background: linear-gradient(230deg, #a24bcf, #4b79cf);
-    background-size: 100%;
+    background-color: #000014;
     border: 0;
     border-radius: 40px;
 }
